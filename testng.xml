@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Regression Suite" verbose="1" parallel="methods" thread-count="3">
+    <test name="SauceDemo Checkout Regression">
+        <classes>
+            <!--<class name="com.selenium.runners.TestRunner"/>-->
+            <class name="com.selenium.A1_seleniumInterviewEx.ThreadLocal_Parallel_Example"/>
+
+        </classes>
+    </test>
+</suite>
