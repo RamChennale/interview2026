@@ -8,3 +8,7 @@ target/
 *.log
 .DS_Store
 test-output/
+*.txt
+*.html
+*.ser
+

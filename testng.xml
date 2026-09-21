@@ -4,7 +4,7 @@
     <test name="SauceDemo Checkout Regression">
         <classes>
             <!--<class name="com.selenium.runners.TestRunner"/>-->
-            <class name="com.selenium.A1_seleniumInterviewEx.ThreadLocal_Parallel_Example"/>
+            <class name="com.selenium.A1_seleniumInterviewEx.selenium26.all.ThreadLocal_Parallel_Example"/>
 
         </classes>
     </test>

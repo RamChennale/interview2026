@@ -26,6 +26,10 @@ public class BrowsingContextNewTabs {
 
         // launching a browser and open a URL
         driver.get("https://www.tutorialspoint.com/selenium/practice/check-box.php");
+        System.out.println("First Get URL 1:            " + driver.getCurrentUrl());
+        System.out.println("First time Window tab ID :  " + driver.getWindowHandle());
+
+Thread.sleep(2000);
 
         // open browsing context in new tab
         BrowsingContext bc = new BrowsingContext(driver, WindowType.TAB);
@@ -35,11 +39,12 @@ public class BrowsingContextNewTabs {
         System.out.println("Id of browsing context in new tab: " + text);
 
         // navigate to new url in the new tab in readiness state
-        NavigationResult i = bc.navigate("https://www.tutorialspoint.com/selenium/practice/buttons.php",
+        NavigationResult i = bc.navigate("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
                 ReadinessState.COMPLETE);
+        Thread.sleep(2000);
 
         // get new URL opened in the new tab
-        System.out.println("Get URL: " + i.getUrl());
+        System.out.println("Get URL: 2  " + i.getUrl());
 
         // Quitting browser
         driver.quit();

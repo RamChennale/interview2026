@@ -1,8 +1,7 @@
 package com.selenium.A4_TestNG;
 
 
-import com.selenium.A1_seleniumInterviewEx.BaseTest_ThreadLocal;
-import io.cucumber.java.After;
+import com.selenium.A1_seleniumInterviewEx.selenium26.all.BaseTest_ThreadLocal;
 import org.testng.annotations.*;
 
 public class TestNG_Example extends BaseTest_ThreadLocal {

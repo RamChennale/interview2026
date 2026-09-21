@@ -54,24 +54,6 @@ public final class DriverManager {
                 prefs.put("profile.password_manager_enabled", false);     // Disables the password manager completely
                 prefs.put("profile.password_manager_leak_detection", false); // Disables the data breach popup
                 chromeOptions.setExperimentalOption("prefs", prefs);
-
-                // 2. Add argument switches to kill backend automated security checks
-                chromeOptions.addArguments("--disable-features=AutofillServerCommunication");
-                chromeOptions.addArguments("--disable-features=PasswordManagerOnboarding");
-
-
-        /*        if (headless) {
-                    chromeOptions.addArguments("--headless=new");
-                }*/
-                chromeOptions.addArguments(
-                        "--start-maximized",
-                        "--disable-infobars",
-                        "--disable-gpu",
-                        "--disable-extensions",
-                        "--no-sandbox",
-                        "--disable-dev-shm-usage",
-                        "--remote-allow-origins=*"
-                );
                 driver = new ChromeDriver(chromeOptions);
                 break;
         }
