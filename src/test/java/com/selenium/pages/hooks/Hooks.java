@@ -1,6 +1,6 @@
-package com.selenium.hooks;
+package com.selenium.pages.hooks;
 
-import com.selenium.utils.DriverManager;
+import com.selenium.pages.utils.DriverManager;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

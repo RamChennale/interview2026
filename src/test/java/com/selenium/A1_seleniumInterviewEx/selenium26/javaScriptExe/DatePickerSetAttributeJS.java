@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 
 public class DatePickerSetAttributeJS extends TestBase {
 
+
+
     @Test
     public void datePickerSetAttributeJS() throws Exception {
         driver.get("https://www.spicejet.com/");

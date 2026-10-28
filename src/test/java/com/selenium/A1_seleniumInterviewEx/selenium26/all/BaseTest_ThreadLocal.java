@@ -16,9 +16,6 @@ public class BaseTest_ThreadLocal {
             WebDriver driver = new ChromeDriver();
             driver.manage().window().maximize();
 
-            //new code
-            //PageFactory.initElements(driver, this);
-
             // 3. Store the instance inside the ThreadLocal container
             driverThreadLocal.set(driver);
             System.out.println(" STARTED  @BeforeSuite ");

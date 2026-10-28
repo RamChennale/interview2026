@@ -1,4 +1,4 @@
-package com.selenium.utils;
+package com.selenium.pages.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

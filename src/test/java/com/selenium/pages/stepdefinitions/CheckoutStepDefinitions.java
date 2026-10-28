@@ -1,11 +1,11 @@
-package com.selenium.stepdefinitions;
+package com.selenium.pages.stepdefinitions;
 
 import com.selenium.pages.CartPage;
 import com.selenium.pages.CheckoutPage;
 import com.selenium.pages.LoginPage;
 import com.selenium.pages.ProductsPage;
-import com.selenium.utils.ConfigReader;
-import com.selenium.utils.DriverManager;
+import com.selenium.pages.utils.ConfigReader;
+import com.selenium.pages.utils.DriverManager;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

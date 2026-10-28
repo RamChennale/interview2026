@@ -11,4 +11,4 @@ test-output/
 *.txt
 *.html
 *.ser
-
+.reports

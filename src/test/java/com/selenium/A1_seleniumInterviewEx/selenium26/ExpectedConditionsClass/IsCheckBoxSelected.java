@@ -2,6 +2,7 @@ package com.selenium.A1_seleniumInterviewEx.selenium26.ExpectedConditionsClass;
 
 import com.selenium.A1_seleniumInterviewEx.selenium26.base.TestBase;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -10,6 +11,8 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 public class IsCheckBoxSelected extends TestBase {
+
+
 
     @Test(enabled=true)
     public void elementToBeSelectedUsingByLocator() {

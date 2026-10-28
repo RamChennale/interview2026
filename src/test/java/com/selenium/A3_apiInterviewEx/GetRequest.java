@@ -14,7 +14,6 @@ public class GetRequest {
     @Test
     public static void getUserReq(){
 
-
                 given()
                 .when()
                         .get("https://reqres.in/api/unknown/1")

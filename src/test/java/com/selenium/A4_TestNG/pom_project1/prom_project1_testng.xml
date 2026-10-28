@@ -1,0 +1,11 @@
+<suite name="Regression">
+    <listeners>
+        <listener class-name="com.selenium.A4_TestNG.pom_project1.listeners.TestListener"/>
+        <listener class-name="com.selenium.A4_TestNG.pom_project1.listeners.RetryTransformer"/>
+    </listeners>
+    <test name="LoginTests">
+        <classes>
+            <class name="com.selenium.A4_TestNG.pom_project1.tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>

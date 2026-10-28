@@ -1,4 +1,4 @@
-package com.selenium.runners;
+package com.selenium.pages.runners;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;

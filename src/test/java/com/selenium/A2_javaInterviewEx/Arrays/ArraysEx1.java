@@ -43,13 +43,13 @@ public class ArraysEx1 {
 
         try{
             System.out.println(array2[10]);
-        }catch(ArrayIndexOutOfBoundsException aeoobe){
-            aeoobe.printStackTrace();
-            System.out.println(aeoobe.getMessage());
+        }catch(ArrayIndexOutOfBoundsException anaerobe){
+            anaerobe.printStackTrace();
+            System.out.println(anaerobe.getMessage());
         }
 
 
-        int array1[] = {1,2,3,4,5,6,7};
+        int[] array1 = {1,2,3,4,5,6,7};
         int sum= 0;
         for (int i=0; i<array1.length; i++){
             sum += array1[i];

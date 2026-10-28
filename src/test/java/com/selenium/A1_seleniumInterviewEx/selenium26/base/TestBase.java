@@ -8,6 +8,9 @@ public class TestBase {
 
     public static WebDriver driver;
 
+/*    public TestBase(WebDriver driver) {
+    }*/
+
     @BeforeTest
     public void setUp() {
            driver =  DriverManager.initDriver();
